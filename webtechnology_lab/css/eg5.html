@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let firstName="John";
+        var lastName="Doe";
+        document.write("Using 'var' to declare and intialise varaiable :<br>");
+        document.write("First Name:"+firstName+"<br>");
+        document.write("LastName: "+lastName+"<br>");
+        var age = 30;
+        document.write("<br>Reassigining a 'var' variable :<br>");
+        document.write("Age: "+age+",<br>");
+        age=35;
+        document.write("Updated Age: "+age+"<br>");
+        document.write("<br>Hoisting with 'var':<br>");
+        function greet(){
+            if(true){
+
+                var message = "Hello ,World";
+            }
+            document.write("<br>'var' variables have function scope:<br>") 
+        }
+
+
+
+    </script>
+</body>
+</html>
